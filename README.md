@@ -7,4 +7,4 @@ The above command can help.
 
 When guest report it need upgrade:
 sudo apt-get update
-sudo apt-get upgrade 
+sudo apt-get upgrade
