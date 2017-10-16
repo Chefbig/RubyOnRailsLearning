@@ -67,4 +67,18 @@ puts 123 ```
   * array.delete(4) ==> delete element
   * array.push
   * array.pop ==> pop the last element
-  * array.pop(4) ==> pop the last 4 elements
+  * array.pop(4) ==> pop the last 4 elements, only number is accepted
+## Hash
+  * different form array
+   * ``` array = [] ```
+   * ``` hash = {} ```
+  * index of hash is label
+    * ``` grades = { "Jane Doe" => 10, "Jim Doe" => 6 } ```
+    * ``` options = { :font_size => 10, :font_family => "Arial" } ```
+    * ``` options = { font_size: 10, font_family: "Arial" } ```
+    * ``` options[:font_size] ``` => 10 # use tag_name as a key
+    * ``` options.key(10) ``` => font_size , do not use index(deprecated)
+
+   * another way to define a hash, a different hash
+     * ```options = { "font_size" => 10, "font_family"=> "Arial" }```
+     * ```options["font_size"] ``` => 10 # use sting as the key
