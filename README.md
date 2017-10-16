@@ -26,3 +26,13 @@ sudo apt-get upgrade
    * Instance @variable
    * Local variable
    * Block variable
+## numbers
+  * ``` 12345.6789.round ``` => 12346
+  * ``` 12345.6789.to_i  ``` => 12345
+  * ``` 12345.6789.ceil ``` => 12346
+  * ``` 12345.6789.floor  ``` => 12345
+
+## String
+  * "Hello"
+  * "1" * 5 ==> 11111
+  * ```"\'"  ``` ====> escape \ 
