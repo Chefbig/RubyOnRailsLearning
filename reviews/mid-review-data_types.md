@@ -15,8 +15,7 @@ The above function definition can be found at http://ruby-doc.org/core-2.4.2/Str
 
 *ri String#reverse ??? Not working??
 
-```ruby
-puts 123 ```
+```ruby puts 123 ```
 
 
 ## variables
@@ -68,6 +67,7 @@ puts 123 ```
   * array.push
   * array.pop ==> pop the last element
   * array.pop(4) ==> pop the last 4 elements, only number is accepted
+
 ## Hash
   * different form array
    * ``` array = [] ```
@@ -82,3 +82,15 @@ puts 123 ```
    * another way to define a hash, a different hash
      * ```options = { "font_size" => 10, "font_family"=> "Arial" }```
      * ```options["font_size"] ``` => 10 # use sting as the key
+
+
+## Range
+ * inclusive range ```1..10```  => 1,2,3,4,5,6,7,8,9,10
+ * exclusive range ```1...10``` => 1,2,3,4,5,6,7,8,9
+ * see... ``` rand(1..5) ``` [5 is not include] and ``` rand(1...5) ``` [5 is included]
+ * expand a range
+  * ``` x = 1..5 ```
+  * ``` z = [*x] ``` => z ==> [1, 2, 3, 4 ,5]
+
+## CONSTANTS
+* Any variable starting with Capital letters are treated as CONSTANTS
