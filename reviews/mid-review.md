@@ -16,7 +16,7 @@ The above function definition can be found at http://ruby-doc.org/core-2.4.2/Str
 *ri String#reverse ??? Not working??
 
 ```ruby
-puts 123
+puts 123 ```
 
 
 ## variables
@@ -40,3 +40,31 @@ puts 123
   * "Hello"
   * "1" * 5 ==> 11111
   * ```"\'"  ``` ====> escape \
+
+## Array
+  * data_set = []
+  * data_set = ['a', 'b', 'c']
+  * ``` data_set[1]  ``` =>> b
+  * ```data_set << 'e' ``` # add new element to the end of array
+  * ``` data_set.clear ``` clear the array to be empty
+  * ``` data_set = nill ``` set the variable to be null, no longer an array
+
+## Array methods
+  * array.join
+  * array.join(",")
+  * String.split(",") ==> using , to split a string and convert it to an array
+   *   ``` x = "1,2,3,4,5" ```
+   * ``` y = x.split(",")  ```
+   * ``` y.length ``` ==> 5
+   * ``` y = x.split(" ") ``` using ' ' space to split x, one element
+   *  ``` y.length ``` ==> 1
+
+  * array.inspect
+  * array.sort
+  * array.uniq
+  * array.sort! ==> write the result back to the original array
+  * array.delete_at(2) ==> delete element at the index
+  * array.delete(4) ==> delete element
+  * array.push
+  * array.pop ==> pop the last element
+  * array.pop(4) ==> pop the last 4 elements
