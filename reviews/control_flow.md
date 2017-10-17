@@ -69,3 +69,54 @@ unless x
   x = z
 end
 ```
+
+# loop
+
+```
+loop do
+  ...
+  break if boolean
+  next # jump to next loop
+  redo
+  retry
+end
+```
+```
+while boolean
+  ...
+end
+```
+
+```
+unless
+  ...
+end
+```
+
+```
+x = 0
+puts x += 2 while x < 100
+
+y = 3245
+puts y/=2 until y <= 1
+
+```
+
+# Iterators
+
+```
+5.times {puts "Hello"}
+
+5.upto(10) {puts "Hello"}
+
+(1..5).each {puts "Hello"}
+
+```
+
+# conclusion
+
+* Integer/floats: times, upto, downto, step
+* Range: each, step
+* String: each, each_line, each_byte
+* Array: each, each_index, each_with_index
+* Hash: each, each_key, each_value, each_pair
