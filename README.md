@@ -16,4 +16,7 @@ sudo apt-get upgrade
 ```
 
 Mid term reviews
-  * [data types and variables](reviews/mid-review-data_types.md) 
+  * [data types and variables](reviews/mid-review-data_types.md)
+  * [control flow](reviews/control_flow.md)
+  * [find, merge, collect, sort, inject](reviews/code_block.md)
+  * [method](reviews/method.md)
