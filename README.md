@@ -22,3 +22,8 @@ Mid term reviews
   * [method](reviews/method.md)
   * [class](reviews/class.md)
   * [modules](review/modules.md)
+Magic variables
+``` ruby
+  $: # folders where ruby will search for files
+  __FILE__ # current file path
+```
