@@ -20,3 +20,4 @@ Mid term reviews
   * [control flow](reviews/control_flow.md)
   * [find, merge, collect, sort, inject](reviews/code_block.md)
   * [method](reviews/method.md)
+  * [class](reviews/class.md)
