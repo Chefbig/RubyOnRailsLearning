@@ -21,3 +21,4 @@ Mid term reviews
   * [find, merge, collect, sort, inject](reviews/code_block.md)
   * [method](reviews/method.md)
   * [class](reviews/class.md)
+  * [modules](review/modules.md)
