@@ -51,3 +51,40 @@ The include method takes all the methods from another module and includes them i
 [Source0](https://stackoverflow.com/questions/318144/what-is-the-difference-between-include-and-require-in-ruby)
 
 So if you just want to use a module, rather than extend it or do a mix-in, then you'll want to use require.
+
+# Example for include, extend class with Enumerable functionality
+
+```
+class ToDoList
+
+  include Enumerable
+
+	attr_accessor :items
+
+	def initialize
+	  @items = []
+  end
+
+  def each
+    @items.each {|item| yield item}
+  end
+
+end
+
+```
+
+without Enumerable
+```
+# list = ToDoList.new
+# list.items = ['laundry', 'dishes', 'vacuum']
+# list.items.select {|i| i.length > 6 }
+```
+
+with Enumerable
+
+```
+# list = ToDoList.new
+# list.items = ['laundry', 'dishes', 'vacuum']
+# list.select {|i| i.length > 6 }
+... other functions in Enumerable module can be available here 
+```
